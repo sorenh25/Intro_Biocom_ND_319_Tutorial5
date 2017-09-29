@@ -26,3 +26,9 @@ for index in range(0, 3294 ,1):
         highSchoolCount += 1
         highSchoolSalery += wages.loc[index, 'wage']
 
+collegeSalery = collegeSalery / collegeCount
+highSchoolSalery = highSchoolSalery / highSchoolCount
+print("Average salery for college graduates:")
+print(collegeSalery)
+print("Average salery for high school graduates:")
+print(highSchoolSalery)
